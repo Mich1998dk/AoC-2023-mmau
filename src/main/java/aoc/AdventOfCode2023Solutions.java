@@ -2,10 +2,10 @@ package aoc;
 
 import aoc.days.Day01;
 
-public class AdventOfCode2022Solutions {
+public class AdventOfCode2023Solutions {
     public static void main(String[] args) {
         try {
-            AdventOfCode2022Solutions.solveAll();
+            AdventOfCode2023Solutions.solveAll();
         } catch (Exception e) {
             e.printStackTrace();
         }
