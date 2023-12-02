@@ -73,7 +73,6 @@ public class Day01 {
             if (!integerList.isEmpty()) {
                 int number1 = tryParseInt(integerList.get(0));
                 int number2 = tryParseInt(integerList.get(integerList.size() - 1));
-                System.out.println(i  + " " + Integer.parseInt("" + number1 + number2) + " " + integerList.get(0) + integerList.get(integerList.size() - 1) + " " + sonar.get(i));
                 sum += Integer.parseInt("" + number1 + number2);
             }
         }
